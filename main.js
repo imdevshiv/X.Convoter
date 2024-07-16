@@ -4,7 +4,7 @@ function calculate() {
   let result = input * 1000;
   result = result + "m";
 
-  console.log(result);
+  // console.log(result);
   document.querySelector("#result").innerHTML = result;
 }
 
