@@ -1,16 +1,15 @@
 function calculate() {
   let input = document.querySelector("#input").value;
-  // console.log(input);
+
   let result = input * 1000;
   result = result + "m";
 
-  // console.log(result);
   document.querySelector("#result").innerHTML = result;
 }
 
 function calculateHr() {
   let input = document.querySelector("#inputhr").value;
-  // console.log(input);
+
   let result = input * 60;
   result = result + "min";
 
@@ -19,7 +18,6 @@ function calculateHr() {
 
 function calculateM() {
   let input = document.querySelector("#inputm").value;
-  // console.log(input);
   let result = input * 100;
   result = result + "cm";
 
@@ -28,7 +26,6 @@ function calculateM() {
 
 function calculateSec() {
   let input = document.querySelector("#inputmin").value;
-  // console.log(input);
   let result = input * 60;
   result = result + "sec";
 
